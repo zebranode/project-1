@@ -1,13 +1,27 @@
-.landingPage {
-    background-image: url('./images/Background_image2.jpg');
+/* styling for all content */
+body {
+    /* ADA compliant font */
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
+/* For background of landing page */
+.landingPage { 
+    background-image: url('./images/Background_image2.jpg') !important;
+    background-size: cover;
+}
+/* For background of menu-page */
+.menuPage {
+    background-image: url('./images/menuPage_background.jpg');
+    background-size: cover;
+}
+/* class for navigation bar */
 .header {
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 10px;
-    background-color: white;
+    background-color: rgb(207, 204, 204) !important;
     
 }
+/* class for each navigation option */
 .nav-item {
     color: black !important;
     font-size: 24px !important;
@@ -16,12 +30,44 @@
 .container-fluid {
     margin: 0 auto;
     padding: 0;
+    text-align: center;
 }
-.logo {
-    display: 
+/* class for each type of Menu Category */
+.menuCat {
+    text-align: center !important;
+    display: inline-block;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* class for card labels */
+.card-text {
+    text-align: center !important;
+    font-weight: normal;
+    font-size: 1rem;
+}
+.card {
+    margin: 0 auto;
+}
+/* unique styling for menu page heading */
+.menuHead {
+    color: white;
 }
 
+.listHead {
+    color: white;
+}
+#menuLinkDiv {
+    margin-top: 40px;
+}
 
+/* styling for rounded menu links */
+.menuLink {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 20px;
+}
 
  /* Colors for each logo */
 
