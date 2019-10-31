@@ -1,6 +1,8 @@
-.landingPage {
+/* For background of landing page */
+.landingPage { 
     background-image: url('./images/Background_image2.jpg');
 }
+/* class for navigation bar */
 .header {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -8,6 +10,7 @@
     background-color: white;
     
 }
+/* class for each navigation option */
 .nav-item {
     color: black !important;
     font-size: 24px !important;
@@ -16,13 +19,25 @@
 .container-fluid {
     margin: 0 auto;
     padding: 0;
+    text-align: center;
 }
-.logo {
-    display: 
+/* class for each type of Menu Category */
+.menuCat {
+    text-align: center !important;
+    display: inline-block;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
-
-
+/* class for card labels */
+.card-text {
+    text-align: center !important;
+    font-weight: normal;
+    font-size: 1rem;
+}
+.card {
+    margin: 0 auto;
+}
  /* Colors for each logo */
 
  /* Facebook */
