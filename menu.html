@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid menuPage">
         <!-- navigation bar -->
         <nav class="navbar header navbar-expand-lg navbar-light bg-light">
             <!-- The logo -->
@@ -34,8 +34,12 @@
                 </div>
             </div>
         </nav>
+        <!-- Heading of Page -->
+        <h1 class="menuHead">Best Sellers:</h1>
+        <!-- List 1 -->
         <div class="poBoys menuCat" role="list">
-            <h2>Po' Boys</h2>
+            <h2 class="listHead">Po' Boys</h2>
+            <!-- List 1 items -->
             <div class="row">
                 <div class="card" role="listitem" style="width: 18rem;">
                     <img src="./assets/images/placeholder_image.png" class="card-img-top" alt="Insert alt">
@@ -51,8 +55,10 @@
                 </div>
             </div>
         </div>
+        <!-- List 2 -->
         <div class="grill menuCat" role="list">
-            <h2>From the Grill</h2>
+            <h2 class="listHead">From the Grill</h2>
+            <!-- List 2 items -->
             <div class="row">
                 <div class="card" role="listitem" style="width: 18rem;">
                     <img src="./assets/images/placeholder_image.png" class="card-img-top" alt="Insert alt">
@@ -68,8 +74,10 @@
                 </div>
             </div>
         </div>
+        <!-- List 3 -->
         <div class="yorkHeros menuCat" role="list">
-            <h2>York Heros</h2>
+            <h2 class="listHead">York Heros</h2>
+            <!-- List 3 items -->
             <div class="row">
                 <div class="card" role="listitem" style="width: 18rem;">
                     <img src="./assets/images/placeholder_image.png" class="card-img-top" alt="Insert alt">
@@ -85,8 +93,10 @@
                 </div>
             </div>
         </div>
+        <!-- List 4 -->
         <div class="platters menuCat" role="list">
-            <h2>Platters</h2>
+            <h2 class="listHead">Platters</h2>
+            <!-- List 4 items -->
             <div class="row">
                 <div class="card" role="listitem" style="width: 18rem;">
                     <img src="./assets/images/placeholder_image.png" class="card-img-top" alt="Insert alt">
@@ -102,8 +112,10 @@
                 </div>
             </div>
         </div>
+        <!-- List 5 -->
         <div class="muffulettas menuCat" role="list">
-            <h2>Muffulettas</h2>
+            <h2 class="listHead">Muffulettas</h2>
+            <!-- List 5 items -->
             <div class="row">
                 <div class="card" role="listitem" style="width: 18rem;">
                     <img src="./assets/images/placeholder_image.png" class="card-img-top" alt="Insert alt">
@@ -119,20 +131,34 @@
                 </div>
             </div>
         </div>
+        <!-- Links to order items from different places -->
+        <div id="menuLinkDiv">
+            <h1 class="menuHead">Explore Full Menu:</h1>
+            <a href="https://eat.chownow.com/discover/restaurant/2115">
+                <img class="menuLink" src="./assets/images/menuLogo1.png" alt="click to order on Chownow">
+            </a>
+            <a href="http://places.singleplatform.com/orleans-and-york-deli/menu?ref=google">
+                <img class="menuLink" src="./assets/images/menuLogo2.jpg" alt="click to order on Single Platform">
+            </a>
+            <a href="https://www.yelp.com/biz/orleans-and-york-deli-los-angeles-3">
+                <img class="menuLink" src="./assets/images/menuLogo3.jpg" alt="click to order on Yelp">
+            </a>   
+        </div>
+        <!-- Footer Nav Bar-->
+        <nav class="navbar navbar-light bg-dark footer">
+            <div class="row row-parent style-dark footer-row">
+                    <div class="site-info col-lg-8 pos-middle text-left">© 2019 Orleans &amp; York All rights reserved</div>
+                        <!-- Social Icons and Links-->
+                        <div class="site-info col-lg-4 pos-middle text-right">
+                        <a href="https://www.yelp.com/biz/orleans-and-york-deli-los-angeles-3" class="fa fa-yelp"></a>
+                        <a href="https://www.facebook.com/OrleansAndYorkDeli/" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/orleansandyorkdeli/" class="fa fa-instagram"></a>
+                    </div>
+            </div>
+        </nav>
     </div>
 
-     <!-- Footer Nav Bar-->
-  <nav class="navbar fixed-bottom navbar-light bg-dark footer">
-    <div class="row row-parent style-dark footer-row">
-         <div class="site-info col-lg-8 pos-middle text-left">© 2019 Orleans &amp; York All rights reserved</div>
-             <!-- Social Icons and Links-->
-             <div class="site-info col-lg-4 pos-middle text-right">
-                <a href="https://www.yelp.com/biz/orleans-and-york-deli-los-angeles-3" class="fa fa-yelp"></a>
-                <a href="https://www.facebook.com/OrleansAndYorkDeli/" class="fa fa-facebook"></a>
-                <a href="https://www.instagram.com/orleansandyorkdeli/" class="fa fa-instagram"></a>
-         </div>
-    </div>
- </nav>
+
 
 
 <!-- Bootstrap JS -->
