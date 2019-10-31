@@ -8,13 +8,10 @@ nav {
     background-color: white;
     
 }
-.nav-link {
-    color: black;
-    font-size: 24px;
-    font-weight: bold;
-}
-.nav-link:hover {
-    background-color: black;
+.nav-item {
+    color: black !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
 }
 .container-fluid {
     margin: 0 auto;
