@@ -43,18 +43,18 @@
     <!-- contact form -->
     <div id="contact-form" class="container">
         <div class="row d-flex justify-content-center">
-            <form class="col-md-6">
+            <form class="col-md-6" action="https://formspree.io/mwkeaodk" method="POST">
                 <div class="form-group">
                     <label for="contactName">Your Name</label>
-                    <input type="text" class="form-control" id="contactName" placeholder="Name">
+                    <input type="text" class="form-control" id="contactName" placeholder="Name" name="name">
                 </div>
                 <div class="form-group">
                     <label for="contactEmail">Email Address</label>
-                    <input type="email" class="form-control" id="contactEmail" placeholder="Email Address">
+                    <input type="email" class="form-control" id="contactEmail" placeholder="Email Address" name="email">
                 </div>
                 <div class="form-group">
                     <label for="contactMessage">Message</label>
-                    <textarea class="form-control" id="contactMessage" rows="3"></textarea>
+                    <textarea class="form-control" id="contactMessage" rows="3" name="message"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Send</button>
             </form>
