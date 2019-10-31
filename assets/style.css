@@ -1,0 +1,22 @@
+.landingPage {
+    background-image: url('./images/Background_image.jpg');
+}
+nav {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+    background-color: white;
+    
+}
+.nav-item {
+    color: black !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+}
+.container-fluid {
+    margin: 0 auto;
+    padding: 0;
+}
+.logo {
+    display: 
+}
