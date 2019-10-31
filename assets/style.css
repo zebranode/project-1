@@ -1,7 +1,7 @@
 .landingPage {
-    background-image: url('./images/Background_image.jpg');
+    background-image: url('./images/Background_image2.jpg');
 }
-nav {
+.header {
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 10px;
@@ -20,3 +20,37 @@ nav {
 .logo {
     display: 
 }
+
+
+
+ /* Colors for each logo */
+
+ /* Facebook */
+    .fa-facebook {
+        background: transparent;
+        color:#3b5998;
+        padding: 10px;
+      }
+      
+/* Twitter */
+    .fa-yelp {
+      background: transparent;
+      color: #D32323;
+      padding: 10px;
+      
+    }
+ /* Instagram */
+    .fa-instagram {
+        background: transparent;
+        color: white;
+        padding: 10px;
+        
+      }
+    
+    .site-info {
+        color: white;
+    }
+    
+    .footer-row {
+        width: 100% !important;
+    }
