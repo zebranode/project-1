@@ -11,10 +11,62 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    
+<br><br>
+<!-- business location map widget 🍕-->
+<!-- uses bootstrap 4 classes -->
+<!-- address-choice class, and data-place-id / data-address attributes are used for javascript interaction  -->
+<div id="locations-map-widget" class="container">
+    <div class="row no-gutters">   
+    <div class="col-4">
+        <!-- address list start -->
+        <div class="list-group">
+            <!-- list item start -->
+            <a href="#" class="address-choice list-group-item list-group-item-action flex-column align-items-start active" data-place-id="ChIJM9BkxkvGwoARwkr5P4QksBw" data-address="333 S Spring St, Los Angeles, CA 90013">
+                <h5 class="mb-0">Downtown Los Angeles</h5>
+                <p class="mb-0">333 S Spring St<br> Los Angeles, CA 90013</p>
+            </a>
+            <!-- list item end -->
+            <!-- list item start -->
+            <a href="#" class="address-choice list-group-item list-group-item-action flex-column align-items-start" data-place-id="ChIJUx7mlnC3woARSqfHbmRuqkk" data-address="4454 W Slauson Ave, Windsor Hills, CA 90043">
+                <h5 class="mb-0">Windsor Hills</h5>
+                <p class="mb-0">4454 W Slauson Ave<br> Windsor Hills, CA 90043</p>
+            </a>
+            <!-- list item end -->
+            <!-- list item start -->
+            <a href="#" class="address-choice list-group-item list-group-item-action flex-column align-items-start" data-place-id="ChIJaUxRXwa3woARdn14D4eFFnA" data-address="400 E Florence Ave, Inglewood, CA 90301">
+                <h5 class="mb-0">Inglewood</h5>
+                <p class="mb-0">400 E Florence Ave<br> Inglewood, CA 90301</p>
+            </a>
+            <!-- list item end -->
+            <!-- list item start -->
+            <a href="#" class="address-choice list-group-item list-group-item-action flex-column align-items-start" data-place-id="ChIJezD6sdLKwoARoXGSFgogd-A" data-address="673 E University Dr, Carson, CA 90746">
+                <h5 class="mb-0">Carson</h5>
+                <p class="mb-0">673 E University Dr<br> Carson, CA 90746</p>
+            </a>
+            <!-- list item end -->  
+            <!-- list item start -->
+            <a href="#" class="address-choice list-group-item list-group-item-action flex-column align-items-start" data-place-id="ChIJOZq-XU-1woARnOywaoDB5Pw" data-address="12807 W El Segundo Blvd, Hawthorne, CA 90250">
+                <h5 class="mb-0">Hawthorne</h5>
+                <p class="mb-0">12807 W El Segundo Blvd<br> Hawthorne, CA 90250</p>
+            </a>
+            <!-- list item end -->
+            </div>
+            <!-- address list start -->
+    </div>
+    <!-- map column start -->
+    <div class="col-8">
+        <iframe id="location-map" class="" width="600" height="486" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAuJmGf0kyAYrtwxDeiQvux-P8ropMEJXo&q=place_id:ChIJM9BkxkvGwoARwkr5P4QksBw" allowfullscreen>
+        </iframe>
+    </div>
+    <!-- map column end -->
+    </div>
+</div>
+<!-- end business location map widget 🍕-->        
 <!-- Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+<!-- addressMap.js -->
+<script src="assets/addressMap.js"></script>
 </body>
 </html>
