@@ -1,7 +1,17 @@
 /* styling for all content */
+
+@import url('https://fonts.googleapis.com/css?family=Teko:500&display=swap');
+
 body {
     /* ADA compliant font */
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+h1{
+    font-size: 60px!important;
+}
+h1, h2, .nav-item{
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 3px;
 }
 /* For background of landing page */
 .landingPage { 
