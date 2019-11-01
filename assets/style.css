@@ -1,7 +1,10 @@
 /* styling for all content */
 
 @import url('https://fonts.googleapis.com/css?family=Teko:500&display=swap');
-
+html.wf-loading * {
+   
+    opacity: 0;
+}
 body {
     /* ADA compliant font */
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;

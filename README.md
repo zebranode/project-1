@@ -37,7 +37,7 @@ Used [throughout](https://onecheesepizza.github.io/project-1/index.html) to ensu
 Used on the [locations page](https://onecheesepizza.github.io/project-1/locations.html) to dynamically load a new map based on the selected location  .
 
 **Imgur API**  
-Used on the [menu page](https://onecheesepizza.github.io/project-1/menu.html) to load images using AJAX hosted on [Imgur.com](https://imgur.com/). This implementation allows the business owner to update the product images on their own without developer intervention.  
+Used on the [menu page](https://onecheesepizza.github.io/project-1/menu.html) to load images hosted on [Imgur.com](https://imgur.com/) using AJAX. This implementation allows the business owner to update the menu images on their own without developer intervention.  
 
 **Parsley.js**  
 Used on the [contact page](https://onecheesepizza.github.io/project-1/contact.html) to validate the form's inputs, chosen for its simple implementation and being accessibility friendly.  
