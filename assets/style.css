@@ -28,6 +28,7 @@ body {
 #locations-page{
     background-image: url('./images/Background_image.jpg') !important;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 /* class for navigation bar */
 .header {
