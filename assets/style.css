@@ -43,6 +43,10 @@ body {
     font-size: 24px !important;
     font-weight: bold !important;
 }
+/* Navigation option hover */
+.nav-item:hover {
+    color: #b87432 !important;
+}
 .container-fluid {
     margin: 0 auto;
     padding: 0;
@@ -80,6 +84,14 @@ body {
     background-color: #b87432;
     color: white !important;
     padding: 10px;
+    border: solid 2px !important;
+    border-color: #b87432 !important;
+    transition: all 0.25s;
+}
+/* Order Now button hover */
+#orderNowButton:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: black !important;
 }
 
 /* styling for rounded menu links */
