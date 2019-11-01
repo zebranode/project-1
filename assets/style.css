@@ -44,6 +44,10 @@ h1, h2, .nav-item{
     background-size: cover;
     background-repeat: no-repeat;
 }
+#map{
+    background-color: white;
+    transition: all 0.25s;
+}
 /* class for navigation bar */
 .header {
     padding-top: 40px;
