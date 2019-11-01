@@ -93,7 +93,7 @@ h1, h2, .nav-item{
 #orderNowButton {
     background-color: #b87432;
     color: white !important;
-    padding: 10px;
+    padding: 6px;
     border: solid 2px !important;
     border-color: #b87432 !important;
     transition: all 0.25s;
