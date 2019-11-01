@@ -12,7 +12,8 @@
 [![Parsley](https://img.shields.io/badge/Parsley-blue)](https://parsleyjs.org/)
 [![Formspree](https://img.shields.io/badge/Formspree-red)](https://formspree.io/)  
 
-***
+A responsive business website for Orleans & York that meets web accessibility standards, and uses modern web technologies for dynamic content loading and user interactivity.  
+
 ## Team
 **Front End**  
 [Zayd Alashini](https://github.com/zaydalashini)  
@@ -20,10 +21,6 @@
 **Back End**   
 [Kingsley Ramos](https://github.com/kingsleyramos)  
 [Brian Moore](https://github.com/onecheesepizza)  
-
-***
-
-A responsive business website for Orleans & York that meets web accessibility standards, and uses modern web technologies for dynamic content loading and user interactivity.
 
 Live Site: https://onecheesepizza.github.io/project-1/
 
@@ -39,13 +36,13 @@ Used [throughout](https://onecheesepizza.github.io/project-1/index.html) for lay
 Used [throughout](https://onecheesepizza.github.io/project-1/index.html) to ensure screen-reader compatibility, per the client's requirements.
 
 **Google Maps API**  
-Used on the [locations page](https://onecheesepizza.github.io/project-1/locations.html) to dynamically load a new map based on the selected location  
+Used on the [locations page](https://onecheesepizza.github.io/project-1/locations.html) to dynamically load a new map based on the selected location  .
 
 **Imgur API**  
 Used on the [menu page](https://onecheesepizza.github.io/project-1/menu.html) to load images using AJAX hosted on [Imgur.com](https://imgur.com/). This implementation allows the business owner to update the product images on their own without developer intervention.  
 
 **Parsley.js**  
-Used on the [contact page](https://onecheesepizza.github.io/project-1/contact.html) to validate the form's inputs, and chosen for its simple implementation and being accessibility friendly.  
+Used on the [contact page](https://onecheesepizza.github.io/project-1/contact.html) to validate the form's inputs, chosen for its simple implementation and being accessibility friendly.  
 
 **Formspree API**  
 Used on the [contact page](https://onecheesepizza.github.io/project-1/contact.html) to perform the form action using their API instead of using our own server-side script. 
