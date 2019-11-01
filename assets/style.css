@@ -76,6 +76,11 @@ body {
 #menuLinkDiv {
     margin-top: 40px;
 }
+#orderNowButton {
+    background-color: #b87432;
+    color: white !important;
+    padding: 10px;
+}
 
 /* styling for rounded menu links */
 .menuLink {
