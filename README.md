@@ -32,7 +32,7 @@ Live Site: https://onecheesepizza.github.io/project-1/
 **Bootstrap**  
 Used [throughout](https://onecheesepizza.github.io/project-1/index.html) for layout, default styles, mobile responsiveness, and being accessibility friendly.  
 
-**ARIA Atributes**  
+**ARIA Attributes**  
 Used [throughout](https://onecheesepizza.github.io/project-1/index.html) to ensure screen-reader compatibility, per the client's requirements.
 
 **Google Maps API**  
