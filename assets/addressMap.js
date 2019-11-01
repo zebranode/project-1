@@ -15,3 +15,4 @@ function switchAddress(event){
   //set map iframe src attribute to new map from API
   $('#location-map').attr("src", mapIDQueryUrl);
 }
+
