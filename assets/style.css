@@ -34,6 +34,10 @@ h1, h2, .nav-item{
     padding:2em;
     border-radius: .25em;
 }
+.btn-primary, .active{
+    background-color:#b87432 !important;
+    border-color:#b87432 !important;
+}
 /* location page background */
 #locations-page{
     background-image: url('./images/Background_image.jpg') !important;
