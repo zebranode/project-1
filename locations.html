@@ -18,7 +18,7 @@
         <nav class="navbar header navbar-expand-lg navbar-light bg-light">
             <!-- The logo -->
             <a class="navbar-brand" href="./index.html">
-                <img src="./assets/images/Logo.png" width="275x" height="50px" class="d-inline-block align-top" alt="logo">
+                <img src="./assets/images/Logo.png" width="275x" height="50px" class="d-inline-block align-top" alt="Logo. Navigates to home page.">
             </a>
             <!-- Button for when the navigation collapses -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,7 @@
                     <a class="nav-link nav-item" href="./menu.html">Menu</a>
                     <a class="nav-link nav-item" href="./locations.html">Locations</a>
                     <a class="nav-link nav-item" href="./contact.html">Contact</a>
-                    <a class="nav-link nav-item" href="https://ordering.chownow.com/order/1632/locations">Order Now</a>
+                    <a id="orderNowButton" class="nav-link nav-item" href="https://ordering.chownow.com/order/1632/locations">Order Now</a>
                 </div>
             </div>
         </nav>
@@ -44,33 +44,33 @@
     <div class="row no-gutters">   
     <div class="col-4">
         <!-- address list start -->
-        <div class="list-group">
+        <div class="list-group"  role="list" aria-label="List of Locations">
             <!-- list item start -->
-            <a href="#" class="address-choice list-group-item list-group-item-action flex-column align-items-start active" data-place-id="ChIJM9BkxkvGwoARwkr5P4QksBw" data-address="333 S Spring St, Los Angeles, CA 90013">
+            <a href="#" role="listitem" class="address-choice list-group-item list-group-item-action flex-column align-items-start active" data-place-id="ChIJM9BkxkvGwoARwkr5P4QksBw" data-address="333 S Spring St, Los Angeles, CA 90013">
                 <h5 class="mb-0">Downtown Los Angeles</h5>
                 <p class="mb-0">333 S Spring St<br> Los Angeles, CA 90013</p>
             </a>
             <!-- list item end -->
             <!-- list item start -->
-            <a href="#" class="address-choice list-group-item list-group-item-action flex-column align-items-start" data-place-id="ChIJUx7mlnC3woARSqfHbmRuqkk" data-address="4454 W Slauson Ave, Windsor Hills, CA 90043">
+            <a href="#" role="listitem" class="address-choice list-group-item list-group-item-action flex-column align-items-start" data-place-id="ChIJUx7mlnC3woARSqfHbmRuqkk" data-address="4454 W Slauson Ave, Windsor Hills, CA 90043">
                 <h5 class="mb-0">Windsor Hills</h5>
                 <p class="mb-0">4454 W Slauson Ave<br> Windsor Hills, CA 90043</p>
             </a>
             <!-- list item end -->
             <!-- list item start -->
-            <a href="#" class="address-choice list-group-item list-group-item-action flex-column align-items-start" data-place-id="ChIJaUxRXwa3woARdn14D4eFFnA" data-address="400 E Florence Ave, Inglewood, CA 90301">
+            <a href="#" role="listitem" class="address-choice list-group-item list-group-item-action flex-column align-items-start" data-place-id="ChIJaUxRXwa3woARdn14D4eFFnA" data-address="400 E Florence Ave, Inglewood, CA 90301">
                 <h5 class="mb-0">Inglewood</h5>
                 <p class="mb-0">400 E Florence Ave<br> Inglewood, CA 90301</p>
             </a>
             <!-- list item end -->
             <!-- list item start -->
-            <a href="#" class="address-choice list-group-item list-group-item-action flex-column align-items-start" data-place-id="ChIJezD6sdLKwoARoXGSFgogd-A" data-address="673 E University Dr, Carson, CA 90746">
+            <a href="#"  role="listitem" class="address-choice list-group-item list-group-item-action flex-column align-items-start" data-place-id="ChIJezD6sdLKwoARoXGSFgogd-A" data-address="673 E University Dr, Carson, CA 90746">
                 <h5 class="mb-0">Carson</h5>
                 <p class="mb-0">673 E University Dr<br> Carson, CA 90746</p>
             </a>
             <!-- list item end -->  
             <!-- list item start -->
-            <a href="#" class="address-choice list-group-item list-group-item-action flex-column align-items-start" data-place-id="ChIJOZq-XU-1woARnOywaoDB5Pw" data-address="12807 W El Segundo Blvd, Hawthorne, CA 90250">
+            <a href="#" role="listitem" aria-label="Location 5" class="address-choice list-group-item list-group-item-action flex-column align-items-start" data-place-id="ChIJOZq-XU-1woARnOywaoDB5Pw" data-address="12807 W El Segundo Blvd, Hawthorne, CA 90250">
                 <h5 class="mb-0">Hawthorne</h5>
                 <p class="mb-0">12807 W El Segundo Blvd<br> Hawthorne, CA 90250</p>
             </a>
@@ -92,13 +92,13 @@
  <!-- Footer Nav Bar-->
  <nav class="navbar fixed-bottom navbar-light bg-dark footer">
     <div class="row row-parent style-dark footer-row">
-         <div class="site-info col-lg-8 pos-middle text-left">© 2019 Orleans &amp; York All rights reserved</div>
-             <!-- Social Icons and Links-->
-             <div class="site-info col-lg-4 pos-middle text-right">
-                <a href="https://www.yelp.com/biz/orleans-and-york-deli-los-angeles-3" class="fa fa-yelp"></a>
-                <a href="https://www.facebook.com/OrleansAndYorkDeli/" class="fa fa-facebook"></a>
-                <a href="https://www.instagram.com/orleansandyorkdeli/" class="fa fa-instagram"></a>
-         </div>
+        <div class="site-info col-lg-8 pos-middle text-left">© 2019 Orleans &amp; York All rights reserved</div>
+        <!-- Social Icons and Links-->
+        <div class="site-info col-lg-4 pos-middle text-right">
+            <a aria-label="Navigates to Yelp page" href="https://www.yelp.com/biz/orleans-and-york-deli-los-angeles-3" class="fa fa-yelp"></a>
+            <a aria-label="Navigates to Facebook page" href="https://www.facebook.com/OrleansAndYorkDeli/" class="fa fa-facebook"></a>
+            <a aria-label="Navigates to Instagram page" href="https://www.instagram.com/orleansandyorkdeli/" class="fa fa-instagram"></a>
+        </div>
     </div>
  </nav>
 
