@@ -26,8 +26,6 @@ Live Site: https://onecheesepizza.github.io/project-1/
 
 ![Screenshot](assets/images/project1-screenshot.png)
 
-***
-
 ## Features & Technologies 
 **Bootstrap**  
 Used [throughout](https://onecheesepizza.github.io/project-1/index.html) for layout, default styles, mobile responsiveness, and being accessibility friendly.  
